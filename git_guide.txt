@@ -1,0 +1,7 @@
+echo "# rabbitmq-in-action-php" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:sun-yifeng/rabbitmq-in-action-php.git
+git push -u origin master
+
