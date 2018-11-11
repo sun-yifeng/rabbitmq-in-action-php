@@ -6,7 +6,9 @@
  * Time: 8:43 PM
  */
 
-require_once('../lib/php-amqplib/amqp.inc');
+#require_once('../vendor/autoload.php');
+
+require_once('../php-amqplib/amqp.inc');
 require_once('../config/config.php');
 
 $conn = new AMQPConnection(HOST, PORT, USER, PASS, VHOST);
